@@ -1,3 +1,6 @@
+#A version of "Toss a Coin to Your Witcher" remixed to a Eurobeat style
+#Requires Coin_perc.rb for percussion function defenitions
+#Run Coin_perc.rb first, followed by this script
 define :plar do |nos, len, rest, size, cut = 100|
   a = 0
   size.times do
