@@ -1,5 +1,7 @@
+#Plays all 3 verses and bridge of the AF song in a Eurobeat style
+#Requires "AF synth defs.rb" file to define functions
+#Run the defs script first to set up defenitions, then run this script
 define :plar do |nos, len, size, minc, maxc|
-  puts "plar"
   a = 0
   size.times do
     play nos[a], release: len[a]*0.2, sustain: len[a]*0.8, pan: -0.5, pitch: 0, cutoff: minc
