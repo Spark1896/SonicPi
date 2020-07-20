@@ -1,3 +1,4 @@
+#Played stand alone, does 1st verse of the AF song in a Eurobeat style
 define :plar do |nos, len, size, minc, maxc|
   puts "plar"
   a = 0
