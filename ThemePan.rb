@@ -1,4 +1,5 @@
-
+#A short theme song wrtten for a game of Scum and Villany, a Sci-Fi TTRPG
+#If you happen to have SW Republic Comando on steam like I do, you can uncomment the first bit for the whispered intro
 define :splar do |nos, len, size, cutl, cuth, pan|
   puts "plar"
   a = 0
