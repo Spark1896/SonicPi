@@ -1,12 +1,6 @@
-use_bpm 160
-use_synth :noise
-with_fx :wobble, phase: 4, invert_wave: 1, phase_offset: 0.75 do
-  4.times do
-    play 60, release: 0.25, amp: 0.3
-    sleep 0.25
-  end
-end
-
+#Suporting file for Coin_main.rb
+#Contains percussion function defenitions for Coin_main.rb
+#Run this script first followed by Coin_main.rb
 define :pintro do
   5.times do
     sample :drum_splash_hard, amp: 0.5
