@@ -1,4 +1,5 @@
-use_bpm 150
+#Suporting file with function defenitions for the main AF synth script
+#Run this script first to set up the function defenitions, then run the main script
 qs = (knit 1,4)
 es = (knit 0.5,8)
 ss = (knit 0.25,16)
@@ -405,7 +406,6 @@ define :bridge do
         end
         sample :drum_snare_hard, amp: 1
         sample :drum_cymbal_pedal
-        #sample :drum_heavy_kick, amp: 3
         sleep 0.5
         2.times do
           sample :drum_cymbal_closed
@@ -471,7 +471,7 @@ define :bridge do
     rests = [0.25, 1.5,0.25,0.25,1.75,0.25] +(knit 0.25,32)+ [ 2.5,1,0.25]
     plar notes, rests, 41,100,115
   end
-  #base
+  #bass
   use_synth :prophet
   notes = [53,41,52,40,50,38,48,36, 53,41,58,46,57,45,53,41]
   plar notes, es+es, 16,90,100
@@ -494,7 +494,3 @@ define :bridge do
   sleep 0.25
   plar [53,53],[1,0.25],2,100,100
 end
-e2
-bridge
-verse
-e3
